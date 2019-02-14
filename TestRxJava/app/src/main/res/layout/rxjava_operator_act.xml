@@ -14,11 +14,61 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Create" />
+
         <Button
             android:id="@+id/btn_from"
             style="@style/text_style_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="From" />
+
+        <Button
+            android:id="@+id/btn_just"
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just" />
+
+        <TextView
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empty/Never/Error" />
+
+        <Button
+            android:id="@+id/btn_range"
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Range" />
+
+        <Button
+            android:id="@+id/btn_timer"
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer" />
+
+        <Button
+            android:id="@+id/btn_interval"
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interval" />
+
+        <Button
+            android:id="@+id/btn_repeat"
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat" />
+
+        <Button
+            android:id="@+id/btn_defer"
+            style="@style/text_style_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defer" />
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
