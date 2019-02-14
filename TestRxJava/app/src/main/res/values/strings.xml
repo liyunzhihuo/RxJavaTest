@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TestRxJava</string>
+
+    <string name="rxjava_base_message">RxJava 最重要的就是Observable（被观察者）\nsubscribe（订阅）\nObserver（观察者）或者Subscriber（订阅者)\n\nObservable也就是数据（事件）源,Subscriber负责接收以及处理数据（事件）.当然要想实现两者通信，需要有一种机制,那就是订阅.Observer 通过 subscribe() 方法建立订阅关系,从而 Observable 可以在需要的时候发出事件来通知 Observer.</string>
+    <string name="rxjava_base_message_two">在RxJava中,有三个事件回调方法,分别是onNext(),OnError(),onCompleted().\nonNext()是最终输出及处理数据的回调,在发射数据过程中出现错误异常会回调OnError()方法,当不会再有新的 onNext() 发出时,就会触发 onCompleted() 方法.\nOnError()和onCompleted()是互斥的.</string>
+</resources>
